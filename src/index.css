@@ -1,3 +1,21 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500&display=swap');
+
+* {
+  padding: 0;
   margin: 0;
+}
+
+body {
+  font-family: 'Rubik', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
 }
